@@ -8,7 +8,7 @@ const model = await tf.loadGraphModel(modePath, { fromTFHub: true });
 */
 
 // Load the model from the local file system.
-const modePath = 'file://models/yamnet/model.json';
+const modePath = 'file://.models/yamnet/model.json';
 const model = await tf.loadGraphModel(modePath, { fromTFHub: false });
 
 // Create a waveform tensor filled with zeros (3 seconds of audio at 16kHz).
