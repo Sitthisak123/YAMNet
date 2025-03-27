@@ -1,0 +1,3 @@
+require install softwares
+1: visual studio with additional ('desktop development with c++' )
+2: ffmpeg 
